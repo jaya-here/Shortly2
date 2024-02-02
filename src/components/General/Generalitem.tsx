@@ -1,4 +1,3 @@
-import image from '../../assets/icon-brand-recognition.svg'
 import styled from 'styled-components'
 import './Generalitem.css'
 
