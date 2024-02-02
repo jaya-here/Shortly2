@@ -1,7 +1,6 @@
 import Button from "../Utils/Button"
 import './Form.css'
 import styled from "styled-components"
-import image from "../../assets/bg-shorten-mobile.svg"
 
 const FormInput = styled.input`
     height: 2rem;
