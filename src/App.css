@@ -1,0 +1,10 @@
+.container {
+  margin: 0em 2.5em 0em 2.5em;
+  text-align: center;
+}
+
+@media screen and (min-width:768px) {
+  .container {
+    margin: 0em 5em 0em 5em;
+  }
+}

@@ -1,0 +1,160 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-title {
+    margin: 0;
+    padding: 1rem 0;
+    font-size: x-large;
+}
+
+.mb-nav-link {
+    color:hsl(0, 0%, 75%);
+    font-size: large;
+    font-weight: 600;
+    padding-bottom: 0.65rem;
+}
+
+.nav-mobile-menu {
+    position: fixed;
+    top:0;
+    left:0;
+    height: 100vh;
+    width: 100%;
+    background-color: whitesmoke;
+    z-index:20;
+}
+
+.mb-nav-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:1.5rem 2.5rem 0rem 2.5rem;
+}
+
+.mb-nav-title {
+    font-size: xx-large;
+}
+
+.mb-nav-left, .mb-nav-right {
+    display: flex;
+    flex-direction: column;
+    padding:1.5rem 0;
+   align-items: center;
+}
+
+.nav-mobile-active {
+    display: none;
+}
+
+   
+.nav-button {
+    border-radius:1.5rem;
+    border: 1px solid transparent;
+    padding: 0.3em 1.2em;
+    font-size: 1rem;
+    font-weight: 300;
+    font-family: inherit;
+    background-color: hsl(180, 66%, 49%);
+    cursor: pointer;
+    transition: border-color 0.25s;
+    color:#FFF;
+    display:block;
+    position:relative;
+    width: fit-content;
+    text-align: center;
+
+
+}
+
+.nav-button:hover {
+    border-color: white;
+    color:white;
+  }
+  
+.nav-button:focus,
+  button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.nav-mb-view {
+    display: none;
+}
+
+@media screen and (min-width:576px) {
+
+    .nav-mb-view {
+        display: block;
+    }
+
+    .nav, .nav-left, .nav-right {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0.5rem 0;
+    }
+
+   
+    
+    
+    .nav-left{
+        gap:0.5rem;
+    }
+    
+     .nav-right {
+        gap:1rem;
+     }
+
+     .nav-link:hover{
+        color:hsl(0, 0%, 75%);
+     }
+
+    .nav-title {
+        margin: 0;
+        padding-right: 1.5rem;
+        font-size: xx-large;
+    }
+    
+    .nav-link {
+        color:hsl(0, 0%, 75%);
+        font-size: small;
+        font-weight: 600;
+    }
+    
+    .nav-button {
+        border-radius:1.5rem;
+        border: 1px solid transparent;
+        padding: 0.3em 1.2em;
+        font-size: small;
+        font-weight: 500;
+        font-family: inherit;
+        background-color: hsl(180, 66%, 49%);
+        cursor: pointer;
+        transition: border-color 0.25s;
+        color:#FFF;
+        display:block;
+        position:relative;
+    
+    }
+    
+    .nav-button:hover {
+        border-color: white;
+        color:white;
+      }
+      
+    .nav-button:focus,
+      button:focus-visible {
+      outline: 4px auto -webkit-focus-ring-color;
+    }
+
+    .nav-mb-view-icon {
+        display: none;
+    }
+
+    .nav-mobile-menu{
+        display: none;
+    }
+    
+}

@@ -1,0 +1,22 @@
+/*.general__item__wrapper {
+    position: relative;
+}
+
+.general__item__wrapper__bg {
+    position: absolute;
+    top:0;
+    left:-.2;
+    width: 100vw;
+    height: 100%;
+    background-color: aqua;
+    z-index: -10;
+}*/
+
+@media screen and (min-width:900px) {
+    .general__item__wrapper {
+        display: flex;
+        gap:2.7rem;
+        margin-top: 4rem;
+        align-items: flex-start;
+    }
+}
